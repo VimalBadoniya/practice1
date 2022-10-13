@@ -14,7 +14,9 @@ function booking(e){
     let a = Math.random();
 
 
-    localStorage.setItem( a , JSON.stringify(patient));
+    localStorage.setItem( pEmail , JSON.stringify(patient));
+
+    console.log(patient)
 
     
 
